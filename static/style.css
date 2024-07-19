@@ -1,17 +1,53 @@
 body {
+    background-image: url("https://m-cdn.phonearena.com/images/article/147370-wide-two_1200/Google-Weather-app-for-Android-is-getting-a-Material-You-redesign.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
 }
+
 .container {
-    max-width: 400px;
-    margin: 0 auto;
+    background-image: url("https://miro.medium.com/v2/resize:fit:5120/1*GsImz-edoeuqCMfKxDus0w.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
-input, select, button {
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+input[type="text"], select {
+    width: calc(100% - 22px);
     padding: 10px;
-    font-size: 16px;
-    margin: 5px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
 }
-#weather-info {
-    margin-top: 20px;
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0
 }
